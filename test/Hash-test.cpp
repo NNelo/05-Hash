@@ -27,5 +27,5 @@ TEST(test_HashMap, obtengoDato) {
 
 TEST(test_HashMap, borroDato) {
     EXPECT_NO_THROW(miHash->remove(3));
-    EXPECT_ANY_THROW(miHash->remove(3)) << "Remover no tira exepcion";
+    EXPECT_ANY_THROW(miHash->get(3)) << "Remover no tira exepcion";
 }
